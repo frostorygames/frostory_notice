@@ -8,7 +8,7 @@
         "jpn": "テストゲーム"
       },
       "filter": {
-        "build_date": "",
+        "build_date": "~00-00-00",
         "build_id": "UNITY_EDITOR"
       },
       "link":{
