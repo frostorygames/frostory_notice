@@ -9,7 +9,7 @@
       },
       "filter": {
         "build_date": "",
-        "build_name": "UNITY_EDITOR"
+        "build_id": "UNITY_EDITOR"
       },
       "link":{
         "text":{
@@ -30,7 +30,7 @@
       "id": "data_recording",
       "oneshot": true,
       "text": {
-        "kor": "저희 게임은 개발을 위해 사용자의 플레이 기록을 수집합니다.\n데이터는 개인정보로 사용되지 않으며, 개인을 식별할 수 없는 형태로만 사용됩니다.",
+        "kor": "저희 게임은 개발 목적으로 사용자의 플레이 기록을 수집합니다.\n데이터는 개인정보로 사용되지 않으며, 개인을 식별할 수 없는 형태로만 사용됩니다.",
         "eng": "Our game collects user play data for development purposes.\nData is not used as personal information and is only used in a form that cannot identify individuals.",
         "jpn": "私たちのゲームは開発のためにユーザーのプレイデータを収集します。\nデータは個人情報として使用されず、個人を特定できない形でのみ使用されます。"
       }
@@ -39,7 +39,7 @@
   "newgame_msgs": [
     {
       "id": "this_game_is_in_development",
-      "onehot": true,
+      "oneshot": true,
       "text": {
         "jpn": "このゲームは現在開発中なので、\n最終バージョンまで変化があり得ます。",
         "eng": "This game is currently under development.\nAdditional changes may take place before the final version.",
@@ -47,7 +47,7 @@
       },
       "filter": {
         "build_date": "",
-        "build_name": ".*"
+        "build_id": ".*"
       }
     }
   ]
